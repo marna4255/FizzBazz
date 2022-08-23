@@ -16,7 +16,7 @@ def fizz_buzz():
             result_list.append("Fizz Buzz")
         elif (number % 3 == 0):
             result_list.append("Fizz")
-        elif (number % 5 == 0) and (number % 5 == 0):
+        elif (number % 5 == 0):
             result_list.append("Buzz")
         else:
             result_list.append(number) 
@@ -38,7 +38,7 @@ def fizz_buzz():
             result_list.append("Fizz Buzz")
         elif (number % 3 == 0):
             result_list.append("Fizz")
-        elif (number % 5 == 0) and (number % 5 == 0):
+        elif (number % 5 == 0):
             result_list.append("Buzz")
         else:
             result_list.append(number) 
